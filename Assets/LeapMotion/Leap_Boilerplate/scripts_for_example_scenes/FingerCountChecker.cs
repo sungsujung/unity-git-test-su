@@ -14,5 +14,6 @@ public class FingerCountChecker : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		text.text = "Finger Count: " + _leapManager.frontmostHand().Fingers.Count;
+		Debug.Log ("abc mart");
 	}
 }
